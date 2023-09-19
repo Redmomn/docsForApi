@@ -60,18 +60,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         backToHome: "返回首页",
         navbar: [
             { text: '开始', link: '/guide/' },
-            { text: '学校有关', children: [{text:'标题',link:'/school/'}] }
+            { text: '学校有关', children: [{text:'溢之泉api文档',link:'/school/溢之泉.md'}] }
         ],
-        // navbar: [
-        //     { text: 'Guide', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/eventfilter.md', '/guide/file.md', '/guide/achieve.md', '/guide/docker.md'] },
-        //     { text: 'API', children: ['/api/', '/api/guild.md'] },
-        //     { text: 'Event', children: ['/event/', '/event/guild.md'] },
-        //     { text: 'CQ Code', link: '/cqcode/' },
-        //     { text: 'Guild', link: '/guild/'},
-        //     { text: 'Reference', children: ['/reference/', '/reference/data_struct.md'] },
-        //     { text: 'Advanced', link: '/advanced/'},
-        //     { text: 'FAQ', link: '/faq/' }
-        // ],
         sidebar: "auto",
     },
 
